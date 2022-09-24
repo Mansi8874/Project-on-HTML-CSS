@@ -1,0 +1,46 @@
+#navbar{
+    flex-direction: column;
+}
+#home{
+    height: 300px;
+    padding: 10px 200px;
+    margin-top: 20px;
+}
+#home::before{
+    height: 480px;
+}
+#home p{
+    font-size: 15px;
+}
+#home h1{
+    font-size: 40px;
+}
+.h-primary{
+    margin: 5px;
+}
+.services-container{
+    margin-top: 20px;
+}
+#services{
+   flex-direction: column;
+   margin-top: 10px;
+}
+#services .box{
+    margin: 10px -15px;
+}
+#clients{
+    flex-wrap: wrap;
+}
+.client-item {
+    padding: 2px;
+}
+#clients img{
+    width: 60px;
+    padding: 40px;
+}
+#client-section {
+    height: 250px;
+}
+#client-section::before{
+    height: 100%;
+}
